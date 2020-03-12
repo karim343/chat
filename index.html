@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>chat</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <input type="text" class="form-control " id="name" placeholder="введите имя пользователя" value="Карим" required>
+            <div id="chat_body" class="form-control">
+                <div id="chat">
+                <div class="massage alert-light">
+                    <div class="username text-primary">User</div>
+                    <div class="usertext text-primary">text</div>
+                </div>
+                </div>
+            </div>
+            <textarea type="text" required class="form-control" id="text" placeholder="введите текст сообщения" rows="3"></textarea>
+        </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="scrip.js"></script>
+</body>
+</html>

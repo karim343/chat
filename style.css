@@ -1,0 +1,30 @@
+html , body{
+    height: 100%;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+#name ,#text , #chat_body{
+    width: 70%;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chat_body{
+    height: 20em;
+    background-color:#f7c73f ;
+    overflow-y: auto;
+
+}
+.massage{
+    background-color:#d29681 ;
+    border-radius: 0;
+    margin: 10px;
+    
+}
